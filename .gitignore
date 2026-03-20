@@ -1,0 +1,34 @@
+# Agent Skills
+.agents/skills/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Storybook build
+.storybook/build/
+
+# Temporary files
+*.tmp
+*.temp
