@@ -1,3 +1,0 @@
-import{n as e}from"./chunk-zsgVPwQN.js";import{r as t,t as n}from"./organisms-YPFTgTt5.js";var r,i,a;e((()=>{n(),r={title:`Organisms/GoogleLoginButton`,component:t,tags:[`autodocs`],parameters:{layout:`centered`}},i={args:{}},i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
-  args: {}
-}`,...i.parameters?.docs?.source}}},a=[`Default`]}))();export{i as Default,a as __namedExportsOrder,r as default};

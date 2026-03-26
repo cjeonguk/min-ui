@@ -1,3 +1,0 @@
-import{n as e}from"./chunk-zsgVPwQN.js";import{d as t,t as n}from"./pages-B8l9_9Yg.js";var r,i,a;e((()=>{n(),r={title:`Pages/StudentInfoPage`,component:t,tags:[`autodocs`],parameters:{layout:`fullscreen`}},i={args:{}},i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
-  args: {}
-}`,...i.parameters?.docs?.source}}},a=[`Default`]}))();export{i as Default,a as __namedExportsOrder,r as default};
