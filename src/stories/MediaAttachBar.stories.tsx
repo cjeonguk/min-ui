@@ -1,0 +1,26 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { MediaAttachBar } from '../components/molecules';
+
+const meta = {
+  title: 'Molecules/MediaAttachBar',
+  component: MediaAttachBar,
+  tags: ['autodocs'],
+  parameters: {
+    layout: 'padded',
+  },
+} satisfies Meta<typeof MediaAttachBar>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const Default: Story = {
+  args: {},
+};
+
+export const WithHandlers: Story = {
+  args: {
+    onAttachImage: () => console.log('attach image'),
+    onAttachFile: () => console.log('attach file'),
+    onAttachLink: () => console.log('attach link'),
+  },
+};
